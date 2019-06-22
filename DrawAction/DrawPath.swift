@@ -8,6 +8,7 @@
 import Foundation
 
 /// Action that defines a new path for subsequent draw actions
+@objcMembers
 final public class DrawPath : DrawAction {
 
     fileprivate let path: UIBezierPath?
